@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD33D71C-FE97-4096-B7B6-D91237A43029}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>library1.My.MyApplication</StartupObject>
+    <RootNamespace>library1</RootNamespace>
+    <AssemblyName>library1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>library1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>library1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="access.Designer.vb">
+      <DependentUpon>access.vb</DependentUpon>
+    </Compile>
+    <Compile Include="access.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add.Designer.vb">
+      <DependentUpon>add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrow.Designer.vb">
+      <DependentUpon>borrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="account.Designer.vb">
+      <DependentUpon>account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrowing.Designer.vb">
+      <DependentUpon>borrowing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="borrowing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Studentinfo.Designer.vb">
+      <DependentUpon>Studentinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Studentinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeinfo.Designer.vb">
+      <DependentUpon>changeinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="changeinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory.Designer.vb">
+      <DependentUpon>inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reports.Designer.vb">
+      <DependentUpon>reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student interface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student interface.Designer.vb">
+      <DependentUpon>student interface.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin interface.Designer.vb">
+      <DependentUpon>admin interface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin interface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="account.resx">
+      <DependentUpon>account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin interface.resx">
+      <DependentUpon>admin interface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="access.resx">
+      <DependentUpon>access.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add.resx">
+      <DependentUpon>add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrow.resx">
+      <DependentUpon>borrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowing.resx">
+      <DependentUpon>borrowing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studentinfo.resx">
+      <DependentUpon>Studentinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeinfo.resx">
+      <DependentUpon>changeinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventory.resx">
+      <DependentUpon>inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports.resx">
+      <DependentUpon>reports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student interface.resx">
+      <DependentUpon>student interface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

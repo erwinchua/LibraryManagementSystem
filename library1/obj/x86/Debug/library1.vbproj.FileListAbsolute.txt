@@ -1,0 +1,29 @@
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\bin\Debug\library1.exe
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\bin\Debug\library1.pdb
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\bin\Debug\library1.xml
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.Form1.resources
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.Resources.resources
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.vbproj.GenerateResource.Cache
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.exe
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.xml
+C:\Users\Wewen\AppData\Local\Temporary Projects\library1\obj\x86\Debug\library1.pdb
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.exe
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.xml
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.pdb
+C:\Users\Wewen\Desktop\library1\library1\library1\bin\Debug\library1.exe
+C:\Users\Wewen\Desktop\library1\library1\library1\bin\Debug\library1.pdb
+C:\Users\Wewen\Desktop\library1\library1\library1\bin\Debug\library1.xml
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.Resources.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.vbproj.GenerateResource.Cache
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.account.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.add.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.borrow.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.inventory.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.reports.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.admininterface.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.studentinterface.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.accessinterface.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.Login.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.changeinfo.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.Studentinfo.resources
+C:\Users\Wewen\Desktop\library1\library1\library1\obj\x86\Debug\library1.borrowing.resources
